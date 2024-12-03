@@ -31,6 +31,7 @@ def home():
 # Login route
 @app.route('/login', methods=['POST'])
 def login():
+    # added
     username = request.form['username']
     password = request.form['password']
 
